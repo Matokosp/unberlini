@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trattoria Un'Berlini</title>
+    <meta name="description" content="The best pizza and pasta in New England. Fresh ingredients and original recipes with the authentic mediterranean flavor.">
+    <meta name="keywords" content="trattoria, pizzeria, new england pasta, pasta, italian recipe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FAVICONS -->
+    <link href="ico/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="ico/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+    <link href="ico/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+    <link href="ico/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="ico/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="ico/icon-hires.png" rel="icon" sizes="192x192" />
+    <link href="ico/icon-normal.png" rel="icon" sizes="128x128" />
+    <link href="ico/icon.svg" rel="mask-icon" sizes="any" color="#718696">
+  </head>
+  <body>
+    <header class="header_takeout">
+      <ul class="hamburger" id="navButton">
+        <li class="hamburger_icon" id="hambIconOne"></li>
+        <li class="hamburger_icon" id="hambIconTwo"></li>
+        <li class="hamburger_icon" id="hambIconThree"></li>
+      </ul>
+      <nav class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="takeout.html" >Take Out</a>
+        <a class="nav_link" href="#pizza">Pizzas</a>
+        <a class="nav_link" href="#pasta">Pasta</a>
+        <a class="nav_link" href="#dessert">Dessert</a>
+      </nav>
+      <div class="takeout_header_title">
+        <h2>Browse our options, <br>
+        kill your cravings. </h2>
+      </div>
+    </header>
+    <main>
+      <section class="products_section">
+        <div class="product_category" id="pizza">
+          <h2>Pizzas</h2>
+          <div class="product_flex">
+            <div class="product_item">
+              <h4>Margherita</h4>
+              <img src="images/margherita.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>White Garlic Chicken</h4>
+              <img src="images/white-garlic.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Pepperoni</h4>
+              <img src="images/pepperoni.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Parmessan Shrimp</h4>
+              <img src="images/shrimp.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="product_category" id="pasta">
+          <h2>Pasta Fresca</h2>
+          <div class="product_flex">
+            <div class="product_item">
+              <h4>Carbonara</h4>
+              <img src="images/carbonara.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Pesto Verde</h4>
+              <img src="images/pesto.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Puttanesca</h4>
+              <img src="images/puttanesca.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Aglio Olio</h4>
+              <img src="images/aglio.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="product_category" id="dessert">
+          <h2>Desserts</h2>
+          <div class="product_flex">
+            <div class="product_item">
+              <h4>Tiramisú</h4>
+              <img src="images/tiramisu.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Nutella Crêpes</h4>
+              <img src="images/crepe.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Gelato</h4>
+              <img src="images/gelato.jpg" alt="">
+            </div>
+            <div class="product_item">
+              <h4>Tartufo</h4>
+              <img src="images/tartufo.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="takeout_form">
+        <div class="takeout_form_title">
+          <h2>Make your order!</h2>
+          <p>(All pizza takeout orders are family size, pasta and desserts are individual size)</p>
+        </div>
+        <div class="form_container">
+          <form action="index.html" method="post" id="myForm">
+            <div class="form_category">
+              <!-- PIZZAS -->
+              <h2 class="form_category_title">Pizzas</h2>
+              <!-- First option -->
+              <label for="pizzas">Flavor</label>
+              <select id="" name="pizzas">
+                <option value="Select">select</option>
+                <option value="Margherita">Margherita</option>
+                <option value="White Garlic Chicken">White Garlic Chicken</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Shrimp">Shrimp</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="How Many?">
+              <br>
+              <!-- Second option -->
+              <label for="pizzas">Flavor</label>
+              <select id="" name="pizzas">
+                <option value="Select">select</option>
+                <option value="Margherita">Margherita</option>
+                <option value="White Garlic Chicken">White Garlic Chicken</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Shrimp">Shrimp</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+              <!-- Third option -->
+              <label for="pizzas">Flavor</label>
+              <select id="" name="pizzas">
+                <option value="Select">select</option>
+                <option value="Margherita">Margherita</option>
+                <option value="White Garlic Chicken">White Garlic Chicken</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Shrimp">Shrimp</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+            </div>
+            <div class="form_category">
+              <!-- PASTAS -->
+              <h2 class="form_category_title">Pastas</h2>
+              <!-- First option -->
+              <label for="pastas">Flavor</label>
+              <select id="" name="pastas">
+                <option value="Select">select</option>
+                <option value="Carbonara">Carbonara</option>
+                <option value="Pesto Verde">Pesto Verde</option>
+                <option value="Puttanesca">Puttanesca</option>
+                <option value="Aglio Olio">Aglio Olio</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+              <!-- Second option -->
+              <label for="pastas">Flavor</label>
+              <select id="" name="pastas">
+                <option value="Select">select</option>
+                <option value="Carbonara">Carbonara</option>
+                <option value="Pesto Verde">Pesto Verde</option>
+                <option value="Puttanesca">Puttanesca</option>
+                <option value="Aglio Olio">Aglio Olio</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+              <!-- Third option -->
+              <label for="pastas">Flavor</label>
+              <select id="" name="pastas">
+                <option value="Select">select</option>
+                <option value="Carbonara">Carbonara</option>
+                <option value="Pesto Verde">Pesto Verde</option>
+                <option value="Puttanesca">Puttanesca</option>
+                <option value="Aglio Olio">Aglio Olio</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+            </div>
+            <div class="form_category">
+              <!-- Desserts -->
+              <h2 class="form_category_title">Desserts</h2>
+              <!-- First option -->
+              <label for="dessert">Flavor</label>
+              <select id="" name="dessert">
+                <option value="Select">select</option>
+                <option value="Tiramisu">Tiramisú</option>
+                <option value="Crepe">Nutella Crêpes</option>
+                <option value="Gelato">Gelato</option>
+                <option value="Tartufo">Tartufo</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+              <!-- Second option -->
+              <label for="dessert">Flavor</label>
+              <select id="" name="dessert">
+                <option value="Select">select</option>
+                <option value="Tiramisu">Tiramisú</option>
+                <option value="Crepe">Nutella Crêpes</option>
+                <option value="Gelato">Gelato</option>
+                <option value="Tartufo">Tartufo</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+              <!-- Third option -->
+              <label for="dessert">Flavor</label>
+              <select id="" name="dessert">
+                <option value="Select">select</option>
+                <option value="Tiramisu">Tiramisú</option>
+                <option value="Crepe">Nutella Crêpes</option>
+                <option value="Gelato">Gelato</option>
+                <option value="Tartufo">Tartufo</option>
+              </select>
+              <label for="quantity">How Many?</label>
+              <input type="number" name="quantity" min="0" value="">
+              <br>
+            </div>
+            <input type="submit" name="" value="Mangiamo!">
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Designed and developed by</p>
+      <h3>Jose Salinas</h3>
+      <a href="mailto:jose.salinas@bhcc.edu">jose.salinas@bhcc.edu</a>
+    </footer>
+  </body>
+
+  <!-- jQuery -->
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="js/myscript.js"></script>
+</html>
